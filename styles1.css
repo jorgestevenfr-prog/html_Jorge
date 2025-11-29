@@ -16,5 +16,51 @@ body{
 /*estilo para el escabezado con degradado*/
 .site-header{
   background: linear-gradient(90deg, #149b1b, #feb47d);
-  color: azure;
+  color: rgb(14, 24, 114);
+  padding: 1rem;
+  text-align: center;
+}
+.subtitle{
+  opacity: 10%;
+}
+
+.content{
+  display: flex; /*coloca las tarjetas una al lado de la otra*/
+  gap: 3rem; /*separar las tarjetas*/
+  flex-wrap: wrap;/*permiten que las tarjetas bajen si no caben*/
+  justify-content: center;
+  padding: 2rem;
+}
+.card{
+  background: #a2e790;
+  padding: 1.25rem;
+  border-radius: 22px;
+  box-shadow: 0.6 18px rgba(203, 248, 185, 0.914);
+  width: 300px;
+}
+.card h2{
+  margin-bottom: 0.5rrem;
+}
+.card p{
+margin-bottom: 1rem;
+color: black;
+}
+.btn{
+  display: inline-block;
+  padding: 0,5rem 1rem;
+  background-color: aqua;
+  border-radius: 8px;
+  color: #0000;
+  justify-content: center;
+}
+.card a{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.site-footer{
+  text-align: center;
+  padding: 1rem;
+  color: aliceblue;
+
 }
